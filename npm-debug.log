@@ -1,0 +1,50 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node@6/6.14.1/bin/node',
+1 verbose cli   '/usr/local/opt/node@6/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'build-contracts' ]
+2 info using npm@3.10.10
+3 info using node@v6.14.1
+4 verbose run-script [ 'prebuild-contracts',
+4 verbose run-script   'build-contracts',
+4 verbose run-script   'postbuild-contracts' ]
+5 info lifecycle cryptocue@1.0.0~prebuild-contracts: cryptocue@1.0.0
+6 silly lifecycle cryptocue@1.0.0~prebuild-contracts: no script for prebuild-contracts, continuing
+7 info lifecycle cryptocue@1.0.0~build-contracts: cryptocue@1.0.0
+8 verbose lifecycle cryptocue@1.0.0~build-contracts: unsafe-perm in lifecycle true
+9 verbose lifecycle cryptocue@1.0.0~build-contracts: PATH: /usr/local/Cellar/node@6/6.14.1/lib/node_modules/npm/bin/node-gyp-bin:/Users/vikas/Documents/workspace/cryptocue/node_modules/.bin:/usr/local/Cellar/node@6/6.14.1/bin:/usr/local/opt/node@6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/vikas/Downloads:/usr/local/opt/node@6/bin
+10 verbose lifecycle cryptocue@1.0.0~build-contracts: CWD: /Users/vikas/Documents/workspace/cryptocue
+11 silly lifecycle cryptocue@1.0.0~build-contracts: Args: [ '-c', 'sol-merger "./contracts/*.sol" ./build' ]
+12 silly lifecycle cryptocue@1.0.0~build-contracts: Returned: code: 1  signal: null
+13 info lifecycle cryptocue@1.0.0~build-contracts: Failed to exec build-contracts script
+14 verbose stack Error: cryptocue@1.0.0 build-contracts: `sol-merger "./contracts/*.sol" ./build`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/local/Cellar/node@6/6.14.1/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/local/Cellar/node@6/6.14.1/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:920:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+15 verbose pkgid cryptocue@1.0.0
+16 verbose cwd /Users/vikas/Documents/workspace/cryptocue
+17 error Darwin 17.4.0
+18 error argv "/usr/local/Cellar/node@6/6.14.1/bin/node" "/usr/local/opt/node@6/bin/npm" "run" "build-contracts"
+19 error node v6.14.1
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error cryptocue@1.0.0 build-contracts: `sol-merger "./contracts/*.sol" ./build`
+22 error Exit status 1
+23 error Failed at the cryptocue@1.0.0 build-contracts script 'sol-merger "./contracts/*.sol" ./build'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the cryptocue package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     sol-merger "./contracts/*.sol" ./build
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs cryptocue
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls cryptocue
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
